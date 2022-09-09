@@ -5,7 +5,7 @@
  * main-prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19
  * followed by a new line, to the standard error
  * use of printf and put not allowed
- * Return: 0 always this though should be 1
+ * Return: 0 always
  */
 int main(void)
 {
