@@ -1,13 +1,21 @@
-#include"_putchar.h"
+#include"main.h"
+#include<sting.h>
 
 /**
- * _putchar- writes the character c yo stdout
- * @c: The character to print
+ * main-Entry point
  *
- * Return: 1 on success
- *  On error, -1 is returned and error is set appropriately
+ * Description: prints _putchar using putchar prototype
+ *
+ * Return: Always 0 (success)
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char str[]="_putchar";
+	int ch;
+
+	for (ch =o; ch < 8; ++ch)
+		_putchar(str[ch]);
+	_putchar('\n');
+
+	return (0);
 }
