@@ -7,7 +7,7 @@
  */
 void puts2(char *str)
 {
-	int lrn, i;
+	int len, i;
 
 	len = 0;
 
